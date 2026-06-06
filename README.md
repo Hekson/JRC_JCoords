@@ -16,7 +16,7 @@
 
 ## 📖 Overview
 
-**JRC-JCoord** is a modern coordinate utility designed for FiveM developers, mappers, and server administrators.
+**JRC-JCoords** is a modern coordinate utility designed for FiveM developers, mappers, and server administrators.
 
 Get precise coordinates, heading information, vector exports, and favorite locations through a sleek and optimized interface.
 
