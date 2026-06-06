@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JRC JCoord</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script src="./js/jquery-3.6.0.js"></script>
+</head>
+<body>
+
+<div class="panel" id="main-panel">
+    <!-- Header -->
+    <div class="header">
+        <div class="logo-wrap">
+            <div class="logo">
+                <span class="logo-main">JRC- </span><span class="logo-x"> JCoord</span>
+            </div>
+            <div class="logo-sub">COORD SYSTEM BY JERICHO SCRIPT</div>
+        </div>
+        <button class="close-btn" id="close-btn"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+
+    <!-- Single Tab -->
+    <div class="tabs">
+        <button class="tab active">
+            <span class="tab-dot"></span>
+            Coords
+            <span class="tab-badge">LIVE</span>
+        </button>
+    </div>
+
+    <!-- Coords -->
+    <div class="coords-section">
+        <div class="coords-row">
+            <div class="coord-box">
+                <div class="coord-label">X</div>
+                <div class="coord-val" id="val-x">0.00</div>
+            </div>
+            <div class="coord-box">
+                <div class="coord-label">Y</div>
+                <div class="coord-val" id="val-y">0.00</div>
+            </div>
+            <div class="coord-box">
+                <div class="coord-label">Z</div>
+                <div class="coord-val" id="val-z">0.00</div>
+            </div>
+        </div>
+        <div class="heading-row">
+            <div class="heading-box accent-box">
+                <div class="heading-label">HEADING</div>
+                <div class="heading-val" id="val-heading">0.00</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Action Buttons -->
+    <div class="actions">
+        <div class="actions-grid">
+
+            <button class="action-btn" id="btn-vec3">
+                <span class="icon"><i class="fa-solid fa-ruler-combined"></i></span>
+                <span>Copy Vector 3</span>
+            </button>
+
+            <button class="action-btn" id="btn-vec4">
+                <span class="icon"><i class="fa-solid fa-location-dot"></i></span>
+                <span>Copy Vector 4</span>
+            </button>
+
+            <button class="action-btn" id="btn-heading">
+                <span class="icon"><i class="fa-solid fa-compass"></i></span>
+                <span>Copy Heading</span>
+            </button>
+
+            <button class="action-btn" id="btn-laser">
+                <div class="laser-dot"></div>
+                <span>Toggle Laser</span>
+            </button>
+
+        </div>
+
+        <button class="action-btn" id="btn-xyz" style="width:100%; justify-content:center;">
+            <span class="icon"><i class="fa-solid fa-clipboard"></i></span>
+            <span>Copy {X, Y, Z}</span>
+        </button>
+
+    </div>
+
+    <!-- Save -->
+    <div class="save-row">
+        <button class="save-btn" id="btn-save">
+            <i class="fa-solid fa-floppy-disk"></i> &nbsp;SAVE &amp; COPY
+        </button>
+    </div>
+
+    <!-- Favourites -->
+    <div class="fav-section">
+        <div class="fav-header">
+            <div class="fav-title">
+                <span class="fav-icon"><i class="fa-solid fa-star"></i></span>
+                FAVOURITES
+                <span class="fav-count" id="fav-count">0</span>
+            </div>
+            <button class="fav-add-btn" id="btn-fav-add" title="Save current coords as favourite">+ ADD</button>
+        </div>
+
+        <!-- Name input row (hidden until + ADD clicked) -->
+        <div class="fav-input-row" id="fav-input-row" style="display:none;">
+            <input type="text" id="fav-name-input" class="fav-name-input" placeholder="Name this coord..." maxlength="32" />
+            <button class="fav-confirm-btn" id="btn-fav-confirm"><i class="fa-solid fa-check"></i></button>
+            <button class="fav-cancel-btn"  id="btn-fav-cancel"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+
+        <div class="fav-list" id="fav-list">
+            <div class="fav-empty" id="fav-empty">No favourites saved yet.</div>
+        </div>
+    </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script src="./js/script.js"></script>
+</body>
+</html>
