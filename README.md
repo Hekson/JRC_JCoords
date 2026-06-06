@@ -1,4 +1,4 @@
-# 🚀 JRC-JCoord
+# 🚀 JRC-JCoords
 
 <p align="center">
   <img src="jrc-banner.png" alt="JRC-JCoord Banner" width="100%">
