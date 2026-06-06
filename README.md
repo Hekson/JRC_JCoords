@@ -143,6 +143,7 @@ ensure JRC-JCoord
 Need help?
 
 Open a ticket through **Jericho Script** support channels.
+https://discord.gg/jericho-script
 
 ---
 
