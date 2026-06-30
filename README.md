@@ -1,7 +1,7 @@
-# 🚀 JRCO-JCoords
+# 🚀 Jericho-JCoords
 
 <p align="center">
-  <img src="./jrc-banner.png" alt="JRCO-JCoord Banner" width="100%">
+  <img src="./jrc-banner.png" alt="Jericho-JCoord Banner" width="100%">
 </p>
 
 <p align="center">
@@ -16,7 +16,7 @@
 
 ## 📖 Overview
 
-**JRCO-JCoords** is a modern coordinate utility designed for FiveM developers, mappers, and server administrators.
+**Jericho-JCoords** is a modern coordinate utility designed for FiveM developers, mappers, and server administrators.
 
 Get precise coordinates, heading information, vector exports, and favorite locations through a sleek and optimized interface.
 
@@ -68,7 +68,7 @@ Get precise coordinates, heading information, vector exports, and favorite locat
 
 | Command   | Description     |
 | --------- | --------------- |
-| `/jcoord` | Open JRCO-JCoord |
+| `/jcoord` | Open Jericho-JCoord |
 
 ---
 
@@ -101,7 +101,7 @@ vector4(-76.44, -816.47, 326.18, 229.89)
 3. Add the resource to your `server.cfg`.
 
 ```cfg
-ensure JRCO-JCoord
+ensure Jericho-JCoord
 ```
 
 4. Restart your server.
