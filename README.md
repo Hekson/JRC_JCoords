@@ -1,7 +1,7 @@
 # 🚀 Jericho-JCoords
 
 <p align="center">
-  <img src="./jrc-banner.png" alt="Jericho-JCoord Banner" width="100%">
+  <img src="./thumbnail.png" alt="Jericho-JCoord Banner" width="100%">
 </p>
 
 <p align="center">
