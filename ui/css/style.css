@@ -4,14 +4,14 @@
 }
 
 :root {
-    --bg:      #0e1117;
-    --panel:   #131720;
-    --panel2:  #181e2a;
-    --border:  #1e2d45;
-    --accent:  #1a6fff;
-    --accent2: #4d8fff;
-    --accent3: #0a4fcf;
-    --glow:    rgba(26, 111, 255, 0.18);
+    --bg:      #020202;
+    --panel:   #020202;
+    --panel2:  #020202;
+    --border:  #1e2d45; 
+    --accent:  #C6FF34;
+    --accent2: #bffc26;
+    --accent3: #b7ff00;
+    --glow:    rgba(198, 255, 52, 0.18);
     --text:    #ffffff;
     --muted:   #4a6080;
     --success: #22c55e;
@@ -36,8 +36,8 @@ body {
     width: 420px;
     overflow: hidden;
     box-shadow:
-        0 0 0 1px rgba(26,111,255,0.08),
-        0 0 40px rgba(26,111,255,0.12),
+        0 0 0 1px rgba(198, 255, 52,0.08),
+        0 0 40px rgba(198, 255, 52,0.12),
         0 24px 60px rgba(0,0,0,0.7);
     display: none;
 }
@@ -112,8 +112,8 @@ body {
 .close-btn:hover {
     color: var(--text);
     border-color: var(--accent);
-    background: rgba(26,111,255,0.12);
-    box-shadow: 0 0 10px rgba(26,111,255,0.2);
+    background: rgba(198, 255, 52, 0.12);
+    box-shadow: 0 0 10px rgba(198, 255, 52, 0.2);
 }
 
 .tabs {
@@ -163,8 +163,8 @@ body {
     font-weight: 700;
     letter-spacing: 1.5px;
     color: var(--accent);
-    background: rgba(26,111,255,0.15);
-    border: 1px solid rgba(26,111,255,0.35);
+    background: rgba(198, 255, 52, 0.15);
+    border: 1px solid rgba(198, 255, 52, 0.35);
     border-radius: 3px;
     padding: 1px 5px;
 }
@@ -189,7 +189,7 @@ body {
     transition: border-color .2s;
 }
 
-.coord-box:hover { border-color: rgba(26,111,255,0.4); }
+.coord-box:hover { border-color: rgba(198, 255, 52,0.4); }
 
 .coord-label {
     font-size: 9px;
@@ -219,9 +219,9 @@ body {
 }
 
 .heading-box.accent-box {
-    background: rgba(26,111,255,0.07);
+    background: rgba(198, 255, 52, 0.07);
     border-color: var(--accent3);
-    box-shadow: inset 0 0 12px rgba(26,111,255,0.05);
+    box-shadow: inset 0 0 12px rgba(198, 255, 52, 0.05);
 }
 
 .heading-label {
@@ -286,7 +286,7 @@ body {
 .action-btn:hover {
     border-color: var(--accent);
     color: #fff;
-    box-shadow: 0 0 14px rgba(26,111,255,0.18);
+    box-shadow: 0 0 14px rgba(198, 255, 52, 0.18);
 }
 
 .action-btn:hover::after { opacity: 0.07; }
@@ -298,8 +298,8 @@ body {
 .action-btn.laser-on {
     border-color: var(--accent);
     color: var(--accent2);
-    background: rgba(26,111,255,0.1);
-    box-shadow: 0 0 14px rgba(26,111,255,0.2);
+    background: rgba(198, 255, 52, 0.1);
+    box-shadow: 0 0 14px rgba(198, 255, 52, 0.2);
 }
 
 .action-btn.copied {
@@ -312,7 +312,7 @@ body {
 
 .save-btn {
     width: 100%;
-    background: linear-gradient(135deg, rgba(26,111,255,0.15), rgba(26,111,255,0.08));
+    background: linear-gradient(135deg, rgba(198, 255, 52, 0.15), rgba(198, 255, 52, 0.08));
     border: 1px solid var(--accent);
     border-radius: 7px;
     color: var(--text);
@@ -342,8 +342,8 @@ body {
 }
 
 .save-btn:hover {
-    background: linear-gradient(135deg, rgba(26,111,255,0.28), rgba(26,111,255,0.14));
-    box-shadow: 0 0 24px rgba(26,111,255,0.28);
+    background: linear-gradient(135deg, rgba(198, 255, 52, 0.28), rgba(198, 255, 52, 0.14));
+    box-shadow: 0 0 24px rgba(198, 255, 52, 0.28);
 }
 
 .save-btn:hover::before { left: 150%; }
@@ -368,7 +368,7 @@ body {
     transition: all .3s;
     white-space: nowrap;
     z-index: 9999;
-    box-shadow: 0 0 16px rgba(26,111,255,0.25);
+    box-shadow: 0 0 16px rgba(198, 255, 52, 0.25);
 }
 
 .toast.show {
@@ -379,7 +379,7 @@ body {
 .toast.success {
     border-color: var(--success);
     color: var(--success);
-    box-shadow: 0 0 16px rgba(34,197,94,0.2);
+    box-shadow: 0 0 16px rgba(198, 255, 52, 0.2);
 }
 
 .laser-dot {
@@ -431,8 +431,8 @@ body {
 }
 
 .fav-count {
-    background: rgba(26,111,255,0.18);
-    border: 1px solid rgba(26,111,255,0.3);
+    background: rgba(198, 255, 52, 0.18);
+    border: 1px solid rgba(198, 255, 52, 0.3);
     border-radius: 10px;
     color: var(--accent2);
     font-size: 9px;
@@ -441,7 +441,7 @@ body {
 }
 
 .fav-add-btn {
-    background: rgba(26,111,255,0.1);
+    background: rgba(198, 255, 52, 0.1);
     border: 1px solid var(--accent3);
     border-radius: 5px;
     color: var(--text);
@@ -455,9 +455,9 @@ body {
 }
 
 .fav-add-btn:hover {
-    background: rgba(26,111,255,0.22);
+    background: rgba(198, 255, 52, 0.22);
     border-color: var(--accent);
-    box-shadow: 0 0 10px rgba(26,111,255,0.2);
+    box-shadow: 0 0 10px rgba(198, 255, 52, 0.2);
 }
 
 .fav-input-row {
@@ -487,7 +487,7 @@ body {
 
 .fav-name-input:focus {
     border-color: var(--accent);
-    box-shadow: 0 0 8px rgba(26,111,255,0.2);
+    box-shadow: 0 0 8px rgba(198, 255, 52, 0.2);
 }
 
 .fav-name-input::placeholder { color: var(--muted); }
@@ -504,18 +504,18 @@ body {
 }
 
 .fav-confirm-btn {
-    background: rgba(34,197,94,0.1);
-    border-color: rgba(34,197,94,0.4);
+    background: rgba(198, 255, 52, 0.1);
+    border-color: rgba(198, 255, 52, 0.4);
     color: var(--success);
 }
-.fav-confirm-btn:hover { background: rgba(34,197,94,0.22); }
+.fav-confirm-btn:hover { background: rgba(198, 255, 52, 0.22); }
 
 .fav-cancel-btn {
-    background: rgba(255,60,60,0.08);
-    border-color: rgba(255,60,60,0.3);
+    background: rgba(198, 255, 52, 0.08);
+    border-color: rgba(198, 255, 52, 0.3);
     color: #f87171;
 }
-.fav-cancel-btn:hover { background: rgba(255,60,60,0.18); }
+.fav-cancel-btn:hover { background: rgba(198, 255, 52, 0.18); }
 
 .fav-list {
     display: flex;
@@ -551,7 +551,7 @@ body {
     animation: slideDown 0.15s ease;
 }
 
-.fav-entry:hover { border-color: rgba(26,111,255,0.35); }
+.fav-entry:hover { border-color: rgba(198, 255, 52, 0.35); }
 
 .fav-star { color: #f5c518; font-size: 10px; flex-shrink: 0; }
 
@@ -597,21 +597,21 @@ body {
 }
 
 .fav-copy-btn {
-    background: rgba(26,111,255,0.08);
+    background: rgba(198, 255, 52, 0.08);
     border-color: var(--border);
     color: var(--text);
 }
 .fav-copy-btn:hover {
-    background: rgba(26,111,255,0.2);
+    background: rgba(198, 255, 52, 0.2);
     border-color: var(--accent);
 }
 
 .fav-del-btn {
-    background: rgba(255,60,60,0.06);
+    background: rgba(198, 255, 52, 0.06);
     border-color: var(--border);
     color: #f87171;
 }
 .fav-del-btn:hover {
-    background: rgba(255,60,60,0.18);
-    border-color: rgba(255,60,60,0.5);
+    background: rgba(198, 255, 52, 0.18);
+    border-color: rgba(198, 255, 52, 0.5);
 }
